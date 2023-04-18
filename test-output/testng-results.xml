@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-17T18:59:53 IST" name="Default suite" finished-at="2023-04-17T18:59:53 IST" duration-ms="176">
+  <suite started-at="2023-04-18T11:56:48 IST" name="Default suite" finished-at="2023-04-18T11:56:48 IST" duration-ms="168">
     <groups>
     </groups>
-    <test started-at="2023-04-17T18:59:53 IST" name="Default test" finished-at="2023-04-17T18:59:53 IST" duration-ms="176">
+    <test started-at="2023-04-18T11:56:48 IST" name="Default test" finished-at="2023-04-18T11:56:48 IST" duration-ms="168">
       <class name="Test1">
-        <test-method signature="stringMap()[pri:0, instance:Test1@7e9131d5]" started-at="2023-04-17T18:59:53 IST" name="stringMap" finished-at="2023-04-17T18:59:53 IST" duration-ms="38" status="PASS">
+        <test-method signature="stramColllect()[pri:0, instance:Test1@2e1d27ba]" started-at="2023-04-18T11:56:48 IST" name="stramColllect" finished-at="2023-04-18T11:56:48 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- stringMap -->
+        </test-method> <!-- stramColllect -->
       </class> <!-- Test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
