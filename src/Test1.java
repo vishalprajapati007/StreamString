@@ -46,9 +46,9 @@ public class Test1 {
     	System.out.println(V);
     	
     	
-        long D= Stream.of("Bbhi","Bhemad","Bkhshay","Ram","Nobita").filter(s->
+        long D= Stream.of("Abhi","Adity","Don","Visii","Anmol").filter(s->
        {
-    	   s.startsWith("B");
+    	   s.startsWith("A");
     	   return true;
        }).count();
         
