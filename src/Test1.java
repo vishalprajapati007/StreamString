@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Test1 {
    // @Test
 	public void Demo() {
-		
+		// Count of name Start With A
 	ArrayList<String> name = new ArrayList<String>();
 	name.add("Abhi");
 	name.add("Adity");
@@ -30,7 +30,7 @@ public class Test1 {
 	 System.out.println(count);
 	}
     
-    //@Test	
+    @Test	
     public void streamfilter() {
     	
     	ArrayList<String> name = new ArrayList<String>();
@@ -39,18 +39,18 @@ public class Test1 {
     	name.add("demo");
     	name.add("visii");
     	name.add("Anmol");
-    	
+    	// count of name start with A
     	Long V=  name.stream().filter(s -> s.startsWith("A")).count();
     	System.out.println(V);
     	
-        long D= Stream.of("Bbhi","Bhemad","Bkhshay","Ram","Nobita").filter(s->
+        long D= Stream.of("Abhi","Adity","demo","visii","Anmol").filter(s->
        {
     	   s.startsWith("A");
     	   return true;
        }).count();
         
        System.out.println(D);
-       
+       //print all the name in arraylist
        name.stream().filter(s-> s.length()>4).limit(2).forEach(s->System.out.println(s));
     	
        }
@@ -80,7 +80,7 @@ public class Test1 {
     	Assert.assertTrue(flag);
     }
     
-    @Test
+  //  @Test
     public void stramColllect()
     {
     	
