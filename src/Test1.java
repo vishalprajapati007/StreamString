@@ -30,6 +30,7 @@ public class Test1 {
 	 System.out.println(count);
 	}
     
+
     //@Test	
     public void streamfilter() {
     	
@@ -40,17 +41,20 @@ public class Test1 {
     	name.add("visii");
     	name.add("Anmol");
     	
+    	// for find name start with A
     	Long V=  name.stream().filter(s -> s.startsWith("A")).count();
     	System.out.println(V);
     	
+    	
         long D= Stream.of("Bbhi","Bhemad","Bkhshay","Ram","Nobita").filter(s->
        {
-    	   s.startsWith("A");
+    	   s.startsWith("B");
     	   return true;
        }).count();
         
        System.out.println(D);
        
+       // print all from arraylist 
        name.stream().filter(s-> s.length()>4).limit(2).forEach(s->System.out.println(s));
     	
        }
