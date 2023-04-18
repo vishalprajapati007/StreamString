@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class Test1 {
    // @Test
 	public void Demo() {
-		
+		// Count of name Start With A
 	ArrayList<String> name = new ArrayList<String>();
 	name.add("Abhi");
 	name.add("Adity");
@@ -30,8 +30,12 @@ public class Test1 {
 	 System.out.println(count);
 	}
     
+<<<<<<< HEAD
 
     //@Test	
+=======
+    @Test	
+>>>>>>> a189ac8dc85a2f99adcf8d88ebac8789cd038316
     public void streamfilter() {
     	
     	ArrayList<String> name = new ArrayList<String>();
@@ -40,6 +44,7 @@ public class Test1 {
     	name.add("demo");
     	name.add("visii");
     	name.add("Anmol");
+<<<<<<< HEAD
     	
     	// for find name start with A
     	Long V=  name.stream().filter(s -> s.startsWith("A")).count();
@@ -47,14 +52,25 @@ public class Test1 {
     	
     	
         long D= Stream.of("Abhi","Adity","Don","Visii","Anmol").filter(s->
+=======
+    	// count of name start with A
+    	Long V=  name.stream().filter(s -> s.startsWith("A")).count();
+    	System.out.println(V);
+    	
+        long D= Stream.of("Abhi","Adity","demo","visii","Anmol").filter(s->
+>>>>>>> a189ac8dc85a2f99adcf8d88ebac8789cd038316
        {
     	   s.startsWith("A");
     	   return true;
        }).count();
         
        System.out.println(D);
+<<<<<<< HEAD
        
        // print all from arraylist 
+=======
+       //print all the name in arraylist
+>>>>>>> a189ac8dc85a2f99adcf8d88ebac8789cd038316
        name.stream().filter(s-> s.length()>4).limit(2).forEach(s->System.out.println(s));
     	
        }
@@ -84,7 +100,7 @@ public class Test1 {
     	Assert.assertTrue(flag);
     }
     
-    @Test
+  //  @Test
     public void stramColllect()
     {
     	
