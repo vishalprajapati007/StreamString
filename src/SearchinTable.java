@@ -22,11 +22,11 @@ public class SearchinTable {
 		
 		driver.findElement(By.id("search-field")).sendKeys("Rice");
 		
-	     List<WebElement> name= driver.findElements(By.xpath("//tr/td[1]"));
+	    List<WebElement> name= driver.findElements(By.xpath("//tr/td[1]"));
 	    
-	     List<WebElement> list=  name.stream().filter(xyz->xyz.getText().contains("Rice")).collect(Collectors.toList());
+	    List<WebElement> list=  name.stream().filter(xyz->xyz.getText().contains("Rice")).collect(Collectors.toList());
 	     
-	     Assert.assertEquals(name.size(), list.size());
+	    Assert.assertEquals(name.size(), list.size());
 	    
 
 	}
